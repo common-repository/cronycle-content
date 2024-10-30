@@ -1,0 +1,79 @@
+/**
+ * CSS related to TinyMCE plugin
+ */
+
+i.mce-i-cronycle {
+    background: url("../../images/icon-editor.png") center center no-repeat;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    i.mce-i-cronycle {
+        background: url("../../images/2x/icon-editor.png") center center no-repeat;
+        background-size: 21px 20px;
+    }
+}
+
+#cronycle-editor-modal-content table {
+    width: 100%;
+}
+
+#cronycle-editor-modal-content table th {
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    vertical-align: middle;
+}
+
+#cronycle-editor-modal-content table th label,
+#cronycle-editor-modal-content table th p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#cronycle-editor-modal-content table td {
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+#cronycle-editor-modal-content table td label {
+    padding-right: 50px;
+}
+
+#cronycle-editor-modal-content select,
+#cronycle-editor-modal-content input {
+    border: 1px solid #b4b9be;
+}
+
+#cronycle-editor-modal-content select,
+#cronycle-editor-modal-content input[type='text'],
+#cronycle-editor-modal-content input[type='number'] {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 14px;
+}
+
+#cronycle-editor-modal-content input[type='radio'],
+#cronycle-editor-modal-content input[type='checkbox'] {
+    height: 14px;
+    width: 14px;
+    min-height: 14px;
+    min-width: 14px;
+}
+
+#cronycle-editor-modal-content select {
+    width: 100%;
+}
+
+#cronycle-editor-modal-content input.small-text {
+    width: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mce-window .mce-container-body.mce-abs-layout {
+        margin-bottom: 50px;
+    }
+}

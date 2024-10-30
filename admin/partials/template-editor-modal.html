@@ -1,0 +1,46 @@
+<table class="form-table">
+  <tr>
+    <th colspan="2">
+      <label for="cron-content-board-name">Embed content from your boards</label>
+    </th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <select id="cron-content-board-name" name="cron-content-board-name" placeholder="Select a board" style="width:100%;">
+        <option value='' disabled selected> Select a board </option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <label for="cron-content-include-image">
+        <input id="cron-content-include-image" name="cron-content-include-image" type="checkbox" checked disabled>Include
+        images
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="cron-content-width">Width:</label></th>
+    <td>
+      <div class="input-group">
+        <input class="input-control" id="cron-content-width" class="small-text" name="cron-content-width" type="number" min="0" max="100"
+          step="1" placeholder="100" disabled>
+        <span class="input-group-addon">%</span>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="cron-content-position">Position:</label></th>
+    <td>
+      <label>
+        <input id="cron-content-position" type="radio" name="cron-content-position" value="left" disabled> Left
+      </label>
+      <label>
+        <input id="cron-content-position" type="radio" name="cron-content-position" value="center" disabled> Center
+      </label>
+      <label>
+        <input id="cron-content-position" type="radio" name="cron-content-position" value="right" disabled> Right
+      </label>
+    </td>
+  </tr>
+</table>

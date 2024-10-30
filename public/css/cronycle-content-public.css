@@ -1,0 +1,393 @@
+/**
+ * All of the CSS for public-facing functionality.
+ */
+
+.cronycle-banner-container {
+    /* background-color: #fbc83f; */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cronycle-banner-inner-container {
+    width: 100%;
+}
+
+.cronycle-banner {
+    font-family: HelveticaNeu, sans-serif;
+    width: auto;
+    /* background-color: #f6f6f6; */
+    text-align: left;
+    padding: 10px 40px !important;
+    border-top: 2px solid #fbc83f;
+}
+
+.cronycle-banner h1,
+.cronycle-banner h2,
+.cronycle-banner h3,
+.cronycle-banner h4,
+.cronycle-banner h5,
+.cronycle-banner h6 {
+    padding: 0 !important;
+    color: #5d5d5d;
+}
+
+.cronycle-banner p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.cronycle-banner a {
+    color: #029777;
+    text-decoration: none;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.cronycle-banner a:hover {
+    color: #029777;
+    text-decoration: underline;
+    border: none !important;
+}
+
+.cronycle-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.cronycle-header .cronycle-board-name {
+    height: 100%;
+}
+
+.cronycle-header .cronycle-logo {
+    height: 100%;
+}
+
+.cronycle-header .cronycle-board-name h1 {
+    font-size: 24px;
+    color: #5d5d5d;
+    font-weight: 400;
+    margin: 0.67em 0 !important;
+}
+
+.cronycle-header .cronycle-logo p {
+    color: #999999;
+    font-size: 11px;
+    margin: 1em 0 !important;
+}
+
+.cronycle-header .cronycle-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.cronycle-carousel {
+    width: 100%;
+    height: fit-content;
+}
+
+.cronycle-carousel .cronycle-carousel-item-group,
+.cronycle-carousel .cronycle-carousel-item-summary {
+    /* border: 1px solid #bbbbbb; */
+    border-radius: 4px;
+    margin: 3px;
+    background-color: #f7f3ed;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-group-tiles,
+.cronycle-carousel-item-summary .cronycle-carousel-item-summary-tiles {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-group-text,
+.cronycle-carousel-item-summary .cronycle-carousel-item-summary-text {
+    margin: 0 8px;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-group-text p,
+.cronycle-carousel-item-summary .cronycle-carousel-item-summary-text p {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 1em 0 !important;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item .cronycle-carousel-item-image,
+.cronycle-carousel-item-summary .cronycle-carousel-item .cronycle-carousel-item-image {
+    display: none;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-avatar {
+    display: none;
+}
+
+.cronycle-carousel .cronycle-carousel-item,
+.cronycle-carousel .cronycle-carousel-item-convo {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    margin: 3px;
+    background-color: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-image {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-image img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-avatar img {
+    width: 48px;
+    height: 48px;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-heading,
+.cronycle-carousel-item .cronycle-carousel-item-body,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-body {
+    padding: 4px 16px 0 16px;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-empty {
+    display: none
+}
+
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 12px;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-empty {
+    height: 45px;
+    width: 100%;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title {
+    margin-left: 0;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-heading .cronycle-carousel-item-title h1,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h1 {
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    margin: 0.67em 0 !important;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h1 {
+    margin-top: 0 !important;
+    margin-left: 40px !important;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-heading .cronycle-carousel-item-title h1 {
+    -webkit-line-clamp: 2;
+    height: 2.4em;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h1 {
+    -webkit-line-clamp: 1;
+    height: 1.2em;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 {
+    font-weight: 300;
+    font-size: 18px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    flex-wrap: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    margin: 0 !important;
+    color: #5d5d5d;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 span {
+    margin-top: 4px !important;
+    margin-left: 8px !important;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 .cronycle-carousel-item-convo-bubble {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto 0.5em;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 .cronycle-carousel-item-convo-bubble svg {
+    position: absolute;
+    fill: #5d5d5d;
+    height: 40px;
+    width: 40px;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 span {
+    margin-left: 15px !important;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h2 .cronycle-carousel-item-convo-bubble span {
+    font-size: 12px;
+    margin-top: 7px !important;
+    margin-left: 0 !important;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-heading .cronycle-carousel-item-subtitle,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-subtitle {
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
+}
+
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-subtitle {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+}
+
+.cronycle-carousel-item-group .cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-subtitle {
+    height: unset;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-body,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-body {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.cronycle-carousel-item .cronycle-carousel-item-body p,
+.cronycle-carousel-item-convo .cronycle-carousel-item-convo-body p {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.5em 0 1em 0 !important;
+}
+
+/*--------------------------*/
+/* styling for narrow width */
+/*--------------------------*/
+
+.vertical-view .cronycle-banner {
+    padding: 0 5px !important;
+}
+
+.vertical-view .cronycle-carousel {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px !important;
+}
+
+.vertical-view .cronycle-carousel-item-group .cronycle-carousel-item-group-tiles {
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-view .cronycle-carousel-item-group .cronycle-carousel-item-group-text p {
+    -webkit-line-clamp: 6;
+}
+
+.vertical-view .cronycle-carousel-item .cronycle-carousel-item-heading .cronycle-carousel-item-title h1,
+.vertical-view .cronycle-carousel-item-convo .cronycle-carousel-item-convo-heading .cronycle-carousel-item-convo-title h1 {
+    height: unset;
+}
+
+.vertical-view .cronycle-carousel-item-convo .cronycle-carousel-item-convo-empty {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #cac5be;
+    box-shadow: inset 0 0 0;
+    -webkit-box-shadow: inset 0 0 0;
+    min-height: 64px;
+    max-height: 240px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0;
+    -webkit-box-shadow: inset 0 0 0;
+    border-radius: 10px;
+}

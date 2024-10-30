@@ -1,0 +1,79 @@
+/**
+ * All of the CSS for your admin-specific functionality
+ * related to banner segment.
+ */
+
+/* styling for page/post editor modal */
+
+#cronycle-editor-modal-content .form-table .disabled {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#cronycle-editor-modal-content .form-table td p {
+    white-space: normal !important;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.input-group .input-control,
+.input-group .input-group-addon {
+    display: table-cell;
+    border: 1px solid #b4b9be;
+    border-radius: 5px;
+}
+
+.input-group .input-group-addon {
+    padding: 0px 8px;
+    height: 40px;
+    text-align: center;
+    background-color: #eee;
+    vertical-align: middle;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group .input-control:disabled+.input-group-addon {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.input-group .input-group-addon:first-child {
+    border-right: 0;
+}
+
+.input-group .input-group-addon:last-child {
+    border-left: 0;
+}
+
+.input-group .input-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+/* customizing input placeholder color */
+:disabled::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+:disabled::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+:disabled:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+:disabled:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.3);
+}

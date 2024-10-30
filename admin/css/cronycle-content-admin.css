@@ -1,0 +1,131 @@
+/**
+ * All of the CSS for your admin-specific functionality
+ * on settings page only.
+ */
+
+#cronycle_content_settings {
+    font-family: "Lucida Grande", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cronycle-settings-page-title {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cronycle-settings-page-title p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.cronycle-settings-logo {
+    margin-top: 3px;
+    height: 20px;
+    width: auto;
+}
+
+.cronycle-settings-page-description {
+    margin-top: 0;
+}
+
+.cronycle-settings-user {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    margin: -15px 0;
+}
+
+.cronycle-settings-user .cronycle-settings-user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.cronycle-settings-user .cronycle-settings-user-avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+.cronycle-settings-user .cronycle-settings-user-name {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.cronycle-settings-user .break {
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#cronycle_content_settings .cronycle-settings-disconnect-button {
+    margin-top: 15px;
+}
+
+/* overridding wordpress existing styling */
+#cronycle_content_form_table {
+    width: auto;
+}
+
+#cronycle_content_form_table td {
+    padding: 0;
+    padding-right: 10px;
+}
+
+#cronycle_content_auth_token {
+    /* margin-left: -80px; */
+    padding: 5px 8px;
+    margin-top: -3px;
+}
+
+.cronycle-settings-log {
+    position: absolute;
+    bottom: 50px;
+}
+
+
+.cronycle-content-settings-form #cronycle_content_banner_position span {
+    margin-right: 20px;
+}
+
+.cronycle-content-settings-form .disabled {
+    opacity: .4;
+}
+
+.cronycle-content-settings-form select[size] {
+    height: auto;
+    min-width: 150px;
+}
+
+.cronycle_content_draft_post_categories_container {
+    height: 186px;
+    min-width: 150px;
+    background-color: white;
+    display: inline-block;
+    margin: 1px;
+    border: 1px solid #ddd;
+    padding: 2px;
+    overflow-y: auto;
+}
+
+.cronycle_content_draft_post_categories_wrapper {
+    display: flex;
+}
+
+.cronycle-content-settings-form #cronycle_content_draft_post_include_tag span {
+    margin-right: 20px;
+}

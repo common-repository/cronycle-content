@@ -1,0 +1,11 @@
+table.wp-list-table th.column-board,
+table.wp-list-table th.column-content_type,
+table.wp-list-table th.column-created_at,
+table.wp-list-table th.column-status {
+    width: 13%;
+}
+
+.tablenav #cronycle_content_reset.button
+{
+    margin: 1px 8px 3px 0;
+}
